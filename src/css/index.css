@@ -1,0 +1,112 @@
+* {
+    margin: 4px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+.navbar {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    margin: 3px 30px;
+}
+
+
+
+.addtask {
+    justify-content: center;
+    align-items: center;
+}
+
+#taskinput {
+    width: 250px;
+    height: 30px;
+}
+
+.completed div {
+    display: flex;
+}
+
+.completed div li {
+    flex: 1;
+}
+
+
+
+.missed div {
+    display: flex;
+}
+
+.missed div li {
+    flex: 1;
+}
+
+.pending div {
+    display: flex;
+}
+
+.pending div li {
+    flex: 1;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+button {
+    cursor: pointer;
+}
+
+.todo-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+#auth {
+    justify-content: center;
+    justify-items: center;
+    margin: 100px 100px;
+}
+
+#loader{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.tododiv_d{
+    background-color: greenyellow;
+}
+
+.tododiv_p{
+    background-color: rgb(5, 226, 255);
+}
+
+.tododiv_m{
+    background-color: rgb(255, 125, 164);
+}
+
+.tododiv_d:hover , .tododiv_p:hover , .tododiv_m :hover{
+     background-color: antiquewhite;
+}
+
+.completed,.missed{
+    margin-top: 100px;
+}
+
+.pending{
+    margin-top: 90px;
+}
